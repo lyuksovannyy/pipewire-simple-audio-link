@@ -18,14 +18,14 @@ Make sure you make bash scripts (`prepare_venv.sh`, `run.sh`) executabe
 - `chmod +x run.sh`
 
 Run `prepare_venv.sh` on first launch and then you need to use only `run.sh`
-- `prepare_venv.sh`
-- `run.sh`
+- `./prepare_venv.sh`
+- `./run.sh`
 
 Also if you're so lazy here is one-line command for you:
-- `git clone https://github.com/lyuksovannyy/pipewire-simple-audio-link && cd pipewire-simple-audio-link && chmod +x prepare_venv.sh && chmod +x run.sh && prepare_venv.sh && run.sh`
+- `git clone https://github.com/lyuksovannyy/pipewire-simple-audio-link && cd pipewire-simple-audio-link && chmod +x prepare_venv.sh && chmod +x run.sh && ./prepare_venv.sh && ./run.sh`
 
 Want to compile file yourself? Then make `build.sh` executable and run it!
-- `chmod +x build.sh && build.sh`
+- `chmod +x build.sh && ./build.sh`
 
 After compilation process you'll find your compiled binary inside `dist/soundstreamer/`,
 now you can use compiled binary with ease!
