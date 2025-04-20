@@ -1,6 +1,10 @@
 # pipewire-simple-audio-link
 Create audio between applications and your microphones with ease!
 
+I made this project as simple replacement for [Soundux](https://github.com/Soundux/Soundux) due to white screen problem
+
+with the only feature that i need is audio connection between app and microphone
+
 # Requirements
 - Pipewire
 - git
