@@ -1,1 +1,1 @@
-venv/bin/pyinstaller soundstreamer.py
+venv/bin/pyinstaller --onefile soundstreamer.py
