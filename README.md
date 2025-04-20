@@ -27,5 +27,5 @@ Also if you're so lazy here is one-line command for you:
 Want to compile file yourself? Then make `build.sh` executable and run it!
 - `chmod +x build.sh && ./build.sh`
 
-After compilation process you'll find your compiled binary inside `dist/soundstreamer/`,
+After compilation process you'll find your compiled binary inside `dist/` directory,
 now you can use compiled binary with ease!
